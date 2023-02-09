@@ -1,0 +1,23 @@
+
+.App {
+  background: rgb(19,96,38);
+  background: linear-gradient(0deg, rgb(38, 64, 44) 0%, rgba(40,52,43,1) 100%);
+  min-height: 100vh;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(228, 229, 215);
+}
+
+.App nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  padding-top:20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+

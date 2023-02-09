@@ -1,0 +1,15 @@
+.link {
+    text-decoration: none;
+    color:goldenrod;
+    display: block;
+}
+
+.link:hover {
+    text-decoration: none;
+    color:gold;
+}
+
+#navBar {
+    background-color:  #415a47;
+    border-bottom:4px solid gold
+}

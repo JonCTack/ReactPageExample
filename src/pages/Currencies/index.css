@@ -1,0 +1,16 @@
+.coinList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.coinClick{
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 1vmin;
+}
+
+ul{
+    padding: 0px
+}
