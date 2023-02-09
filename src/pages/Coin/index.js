@@ -9,9 +9,9 @@ const Coin = () => {
   let { symbol } = useParams()
   let isFirstRender = useRef(true)
   const makeAPICall = async () => {
-      let response = await axios(`http://rest-sandbox.coinapi.io/v1/exchangerate/${symbol}/USD?apikey=${process.env.REACT_APP_CRYP_KEY}`)
+      let response = await axios(`https://rest-sandbox.coinapi.io/v1/exchangerate/${symbol}/USD?apikey=${process.env.REACT_APP_CRYP_KEY}`)
       setCoinInfo(response.data)
-      console.log(response)
+      
     }
 
   useEffect(() => {
